@@ -485,5 +485,37 @@ h4
 }
 
 
+@media screen and (max-width: 500px) {
+    h2 {
+        font-size: var(--media2-big-header-font);
+    }
+    
+    p {
+        font-size: var(--media2-body-font);
+    }
+    
+    .body-btn {
+        font-size: var(--media2-body-font);
+        
+    }
+
+    .swiper-slide .swiper-content .write-up-image .blue-bg img {
+        width: 150px; 
+    }
+
+    .sub-bg2 {
+        height: 90px;
+        top: 70%;
+        left: 20%;
+    }
+
+    .swiper-slide .swiper-content .write-up-image {
+        width: 55%;
+    }
+
+
+}
+
+
   
 
