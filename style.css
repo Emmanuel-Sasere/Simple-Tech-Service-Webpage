@@ -27,6 +27,8 @@ background-color: var(--body-bg-color);
     --big-heading-size: 22px;
     --hover-font-size : 16.5px;
     --how-font-size: 16px;
+    --h5-font-size: 15px;
+    --h6-font-size: 13px;
 
     /* ======== MEDIA QUERIES FONT ================= */
     --media1-body-font: 14px;
@@ -34,18 +36,23 @@ background-color: var(--body-bg-color);
     --media1-big-header-font: 19px;
     --media1-hover-font-size: 14.5px;
     --media1-how-font-size: 15px;
+    --media1-h6-font-size: 11px;
    
     --media2-body-font: 12px;
     --media2-small-header-font: 13px;
     --media2-big-header-font: 15px;
     --media2-hover-font-size: 12.5px;
     --media2-how-font-size: 13px;
+    --media2-h5-font-size: 12px;
+    --media2-h6-font-size: 9px;
    
     --media3-body-font: 9px;
     --media3-small-header-font: 10px;
     --media3-big-header-font: 12px;
     --media3-hover-font-size: 9.5px;
     --media3-how-font-size: 10px;
+    --media3-h5-font-size: 9px;
+    --media3-h6-font-size: 7px;
 
 
 
@@ -450,6 +457,58 @@ h3 {
 }
 
 
+/* =============== PROCESS ================== */
+
+/* .process {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} */
+
+
+.pro {
+    height: 65vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+
+}
+
+
+
+.pro-image {
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro-image img {
+    width: 450px;
+    object-fit: contain;
+    border-radius: 10px;
+
+}
+
+h5 {
+    color: var(--text-color);
+    font-size: var(--h5-font-size);
+    margin-top: 10px;
+    
+}
+
+h6 {
+    color: var(--header-text-color);
+    font-size: var(--h6-font-size);
+    margin-top: 6px;
+    padding:  7px 0;
+    font-weight: 400;
+}
+
 
 
 
@@ -541,6 +600,20 @@ h3 {
         font-size: var(--media1-how-font-size);
     }
 
+    h5 {
+    
+        font-size: var(--media1-h5-font-size);
+        
+        
+    }
+    
+    h6 {
+       
+        font-size: var(--media1-h6-font-size);
+       
+    }
+    
+
 
     .swiper-slide .swiper-content .write-up-image {
         height: 60%;
@@ -564,6 +637,7 @@ h3 {
 
     .write-up1 {
         height: 40%;
+       
     }
 
 
@@ -596,6 +670,14 @@ h3 {
     .login-menu__btn {
         display: block;
     }
+
+
+
+
+    .pro-image img {
+        width: 400px;
+    }
+
  
 
 
@@ -641,9 +723,9 @@ h3 {
         text-align: center;
     }
 
- .col {
+ /* .col {
         flex-basis: 100%;
-    }
+    } */
 
 
     .course-content {
@@ -669,6 +751,15 @@ h3 {
     top: 8%;
     z-index: 1111; */
 }
+
+.pro-image img {
+    width: 350px;
+}
+
+.pro {
+    flex-direction: column;
+}
+
     
 }
 
@@ -689,6 +780,19 @@ h3 {
     .h4 {
         font-size: var(--media2-how-font-size);
     }
+
+    h5 {
+    
+        font-size: var(--media2-h5-font-size);
+        
+        
+    }
+    
+    h6 {
+       
+        font-size: var(--media2-h6-font-size);
+       
+    }
     
     .body-btn {
         font-size: var(--media2-body-font);
@@ -700,7 +804,7 @@ h3 {
     }
 
     .sub-bg2 {
-        height: 90px;
+        height: 80px;
         top: 70%;
         left: 20%;
     }
@@ -712,12 +816,12 @@ h3 {
     .write-up1 {
         width: 38vh;
         height:35%;
-        margin-top: 3rem;
+        margin-bottom: 2rem;
     }
 
     .display {
         width: 50vw;
-        height: 90%;
+        height: 100%;
         
 }
 
@@ -726,6 +830,10 @@ h3 {
     /* right: 48%;
     top: 8%;
     z-index: 1111; */
+}
+
+.pro-image img {
+    width: 280px;
 }
 
 
@@ -756,8 +864,21 @@ h3 {
         font-size: var(--media3-how-font-size);
     }
 
+    h5 {
+    
+        font-size: var(--media3-h5-font-size);
+        
+        
+    }
+    
+    h6 {
+       
+        font-size: var(--media3-h6-font-size);
+       
+    }
+
     .sub-bg2 {
-        height: 65px;
+        height: 60px;
         width: 50%;
     }
 
@@ -774,8 +895,21 @@ h3 {
     }
 
     .display {
-        height: 95%;
+        height: 100%;
     }
+
+    /* .pro {
+        justify-content: center;
+    } */
+   
+   
+    .pro-image img {
+        width: 240px;
+    }
+
+
+
+
 
 
 }
