@@ -20,10 +20,10 @@ navLinks.forEach(function (navLink) {
 
 // SWIPER JS CODE ==================
 const swiper = new Swiper('.swiper', {
-    // autoplay: {
-    //     delay: 5000,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
 
     loop: true,
   
@@ -38,3 +38,6 @@ const swiper = new Swiper('.swiper', {
     },
   
   });
+
+
+ 
