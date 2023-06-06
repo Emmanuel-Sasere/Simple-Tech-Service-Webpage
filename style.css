@@ -16,6 +16,8 @@ background-color: var(--body-bg-color);
 
 
 
+
+
 /* ========== ROOT VARAIBLES  =============== */
 
 :root {
@@ -80,9 +82,7 @@ background-color: var(--body-bg-color);
 }
 
 /* ================= HEADER ================ */
-body {
-    height: 100vh;
-}
+
 header {
   
     height: 100vh;
@@ -92,6 +92,7 @@ main {
     
     height: 100vh;
 }
+
 
 /* =============================================== NAV ======================================================= */
 /* ========= NAVBAR ========== */
@@ -199,6 +200,7 @@ a:hover {
     align-items: center;
     justify-content: center;
 }
+
 
 .swiper {
     width: 100%;
@@ -525,6 +527,7 @@ h6 {
     display: flex;
     justify-content: center;
    /* flex-wrap: wrap; */
+   margin-top: 10px;
 }
 
 .logos {
@@ -596,6 +599,32 @@ h6 {
     height: 50px;
     margin: 0 40px;
 
+}
+
+
+.star-check {
+    background-color: #282829;
+    border-radius: 5px;
+    border-left: 3px solid var(--img-bg-color);
+    padding: 10px;
+    justify-content: center;
+}
+
+.name-star {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+}
+
+.real-star {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.bxs-star {
+    color: var(--star-color);
 }
 
 
@@ -1009,7 +1038,7 @@ footer {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     h2 {
         font-size: var(--media2-big-header-font);
     }
@@ -1123,7 +1152,7 @@ footer {
 }
 
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
 
     h2 {
         font-size: var(--media3-big-header-font);
